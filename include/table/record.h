@@ -1,12 +1,13 @@
 #ifndef RECORD
 #define RECORD
+#include "field.h"
 
-    struct record_t;
+struct record_t;
 
-    //reord allocation 
-    struct record_t* record_new();
+//record allocation 
+struct record_t* record_new();
 
-    void reord_ctor(struct reord_t*);
-    void reord_dtor(struct reord_t*);
+void record_ctor(struct record_t*, int fieldCount);
+void record_dtor(struct record_t*);
     
 #endif

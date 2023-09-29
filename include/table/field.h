@@ -8,6 +8,6 @@
 
     void field_ctor(struct field_t*);
     void field_dtor(struct field_t*);
-    void set_field_value(struct field_t*, );
+    void set_field_value(struct field_t*);
 
 #endif
