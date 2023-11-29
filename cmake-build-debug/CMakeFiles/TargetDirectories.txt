@@ -1,4 +1,0 @@
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-debug/CMakeFiles/llp_database.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
