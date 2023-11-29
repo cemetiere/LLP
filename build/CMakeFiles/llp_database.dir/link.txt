@@ -1,0 +1,2 @@
+/usr/bin/ar qc libllp_database.a CMakeFiles/llp_database.dir/src/hashmap/abstract_hashmap.c.o CMakeFiles/llp_database.dir/src/hashmap/memory_hashmap.c.o CMakeFiles/llp_database.dir/src/hashmap/table_hashmap.c.o CMakeFiles/llp_database.dir/src/table/record.c.o CMakeFiles/llp_database.dir/src/table/table.c.o CMakeFiles/llp_database.dir/src/allocator.c.o CMakeFiles/llp_database.dir/src/comparator.c.o CMakeFiles/llp_database.dir/src/converter.c.o CMakeFiles/llp_database.dir/src/database.c.o CMakeFiles/llp_database.dir/src/types.c.o
+/usr/bin/ranlib libllp_database.a

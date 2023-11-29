@@ -1,16 +1,25 @@
-#include <stdlib.h>
-#include "../../include/table/record.h"
-typedef struct record_t{
-    struct field_t* field;
-    int index;
-} record_t;
+#include "../../include/record.h"
 
-record_t* record_new(){
-    return (record_t*) malloc(sizeof(record_t));
+struct RecordData *prepareRecordDataStructure(struct TableHeader *tableHeader) {
+    struct RecordData *recordData = malloc(sizeof(struct RecordData));
+    void **data = calloc(tableHeader->columnCount, sizeof(void *));
+    recordData->data = data;
+    recordData->unreadData = NULL;
+    recordData->rowPageBlock = NULL;
+    recordData->columns = NULL;
+    return recordData;
 }
-void record_ctor(record_t* record, int fieldCount){
 
+void freeRecordData(struct RecordData *recordData) {
+    free(recordData->data);
+    free(recordData->columns);
+    unmapPage(recordData->rowPageBlock);
+    free(recordData);
 }
-void record_dtor(record_t* record){
 
+void clearRecordDataToReadFromBegin(struct RecordData *recordData) {
+    recordData->unreadData = NULL;
+    recordData->rowPageBlock = NULL;
 }
+
+

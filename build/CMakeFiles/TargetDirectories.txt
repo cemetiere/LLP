@@ -1,0 +1,4 @@
+/mnt/c/Users/Андрей/Desktop/Study/LLP/build/CMakeFiles/llp_database.dir
+/mnt/c/Users/Андрей/Desktop/Study/LLP/build/CMakeFiles/test.dir
+/mnt/c/Users/Андрей/Desktop/Study/LLP/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Андрей/Desktop/Study/LLP/build/CMakeFiles/rebuild_cache.dir

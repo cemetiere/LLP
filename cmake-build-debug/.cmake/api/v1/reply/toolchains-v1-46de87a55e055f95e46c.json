@@ -1,0 +1,51 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/\u2568\u0420\u2568\u255c\u2568\u2524\u2564\u0410\u2568\u2561\u2568\u2563/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"C:/Users/\u2568\u0420\u2568\u255c\u2568\u2524\u2564\u0410\u2568\u2561\u2568\u2563/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/include",
+						"C:/Users/\u2568\u0420\u2568\u255c\u2568\u2524\u2564\u0410\u2568\u2561\u2568\u2563/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"C:/Users/\u2568\u0420\u2568\u255c\u2568\u2524\u2564\u0410\u2568\u2561\u2568\u2563/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/\u0410\u043d\u0434\u0440\u0435\u0439/AppData/Local/JetBrains/CLion 2023.2.2/bin/mingw/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
