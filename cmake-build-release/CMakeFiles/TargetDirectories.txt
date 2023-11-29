@@ -1,4 +1,0 @@
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-release/CMakeFiles/llp.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-release/CMakeFiles/llp_lib.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-release/CMakeFiles/edit_cache.dir
-C:/Users/Андрей/Desktop/Study/LLP/cmake-build-release/CMakeFiles/rebuild_cache.dir
