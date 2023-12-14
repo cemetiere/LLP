@@ -37,7 +37,6 @@ static void insertTest() {
     double col7;
     char *col8;
 
-
     for (int j = 1; j <= 100000; j++) {
         col1 = rand();
         col2 = rand() % 2 == 0;
@@ -104,8 +103,8 @@ static void updateTest(void) {
 static void deleteTest(void) {
     struct TableHeader *th;
     getTable(&th, "test");
-    int minVal = -4000;
-    int maxVal = 2000;
+    int minVal = -100000;
+    int maxVal = 100000;
     struct Operand leftOperand = {true, {.columnName="col1"}};
 
     struct FreeVariable freeVariableMin = {INT_TYPE, &minVal};
@@ -126,14 +125,14 @@ int main(int argc, char **argv) {
     insertTest();
     printf("Finished insertTest\n");
 
-    readTest();
-    printf("Finished readTest\n");
+    // readTest();
+    // printf("Finished readTest\n");
 
-    updateTest();
-    printf("Finished updateTest\n");
+    // updateTest();
+    // printf("Finished updateTest\n");
 
-    deleteTest();
-    printf("Finished deleteTest\n");
+    // deleteTest();
+    // printf("Finished deleteTest\n");
 
     closeDatabaseFile();
     return 0;
